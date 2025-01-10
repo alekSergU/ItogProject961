@@ -58,6 +58,10 @@ class Program
             {
                 Console.WriteLine("необходимо ввести 1 или 2");
             }
+            catch (OverflowException)
+            {
+                Console.WriteLine("необходимо ввести 1 или 2");
+            }
             finally
             {
                 if (value == 1)

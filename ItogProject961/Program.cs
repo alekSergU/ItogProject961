@@ -128,7 +128,7 @@ internal class Program
     {
         Exception[] massExcept =
         {
-            new MyExept("произошла ошибка"),
+            new MyExcept("произошла ошибка"),
             new StackOverflowException(),
             new DivideByZeroException(),
             new OverflowException(),
